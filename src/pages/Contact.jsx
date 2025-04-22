@@ -33,7 +33,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "JavaScript Mastery",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "a.ethem.beldagli@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -89,7 +89,7 @@ const Contact = () => {
               type='text'
               name='name'
               className='input'
-              placeholder='John'
+              placeholder='Ethem is teh best'
               required
               value={form.name}
               onChange={handleChange}
@@ -103,7 +103,7 @@ const Contact = () => {
               type='email'
               name='email'
               className='input'
-              placeholder='John@gmail.com'
+              placeholder='ethemisthebest@everything'
               required
               value={form.email}
               onChange={handleChange}
